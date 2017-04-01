@@ -1,0 +1,71 @@
+# -*- coding: utf-8 -*-
+"""
+Created on 2017/3/16 12:23
+
+@version: python3.5
+@author: qd
+"""
+names_type_mapping = [
+    ('time', 'S8'),
+    ('coid', 'S8'),
+    ('windcode', 'S8'),
+    ('date', 'S8'),
+    ('price', 'f'),
+    ('volume', 'f'),
+    ('turover', 'f'),
+    ('match_items', 'f'),
+    ('ierest', 'f'),
+    ('trade_flag', 'f'),
+    ('bs_flag', 'f'),
+    ('accvolume', 'f'),
+    ('accturover', 'f'),
+    ('high', 'f'),
+    ('low', 'f'),
+    ('open', 'f'),
+    ('pre_close', 'f'),
+    ('ask10', 'f'),
+    ('ask9', 'f'),
+    ('ask8', 'f'),
+    ('ask7', 'f'),
+    ('ask6', 'f'),
+    ('ask5', 'f'),
+    ('ask4', 'f'),
+    ('ask3', 'f'),
+    ('ask2', 'f'),
+    ('ask1', 'f'),
+    ('bid1', 'f'),
+    ('bid2', 'f'),
+    ('bid3', 'f'),
+    ('bid4', 'f'),
+    ('bid5', 'f'),
+    ('bid6', 'f'),
+    ('bid7', 'f'),
+    ('bid8', 'f'),
+    ('bid9', 'f'),
+    ('bid10', 'f'),
+    ('asize10', 'f'),
+    ('asize9', 'f'),
+    ('asize8', 'f'),
+    ('asize7', 'f'),
+    ('asize6', 'f'),
+    ('asize5', 'f'),
+    ('asize4', 'f'),
+    ('asize3', 'f'),
+    ('asize2', 'f'),
+    ('asize1', 'f'),
+    ('bsize1', 'f'),
+    ('bsize2', 'f'),
+    ('bsize3', 'f'),
+    ('bsize4', 'f'),
+    ('bsize5', 'f'),
+    ('bsize6', 'f'),
+    ('bsize7', 'f'),
+    ('bsize8', 'f'),
+    ('bsize9', 'f'),
+    ('bsize10', 'f')
+]
+names_type_mapping2 = [
+    ('time', 'S8'),
+    ('bid1', 'f'),
+    ('ask1', 'f')
+]
